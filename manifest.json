@@ -1,1 +1,29 @@
-sup
+{
+    "format_version": 2,
+    "header": {
+        "name": "Adem's Utilities Add-on",
+        "description": "New Project :D",
+        "uuid": "d0c7f150-4f96-47ca-a924-97db57f21468",
+        "version": "1.0.0",
+        "min_engine_version": [1, 21, 90]
+    },
+    "modules": [
+        {
+            "uuid": "1afe77c0-54a6-49d8-a8c5-76e1099ad8ee",
+            "version": "1.0.0",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        }
+    ]
+}
